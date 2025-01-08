@@ -1,12 +1,12 @@
 # AI 角色對話遊戲
-受到 ihower 在 WebConf Taiwan 2024 的[演講內容](https://ihower.tw/blog/archives/12444)啟發，做了這個簡單的 AI 角色對話遊戲。
+受到 ihower 在 WebConf Taiwan 2024 的 [演講內容](https://ihower.tw/blog/archives/12444) 啟發，做了這個簡單的 AI 角色對話遊戲。
 
 # 主要功能
-- 多模型支持: OpenAI GPT、Anthropic Claude、Google Gemini、Mistral 及 xAI GROK。
-- 角色自定義: 為防守者、挑戰者與評估者自定義模型、角色提示詞。
+- 多模型支持: OpenAI GPT、Anthropic Claude、Google Gemini、Mistral 及 xAI Grok。
+- 角色自定義: 為不同角色(防守者、挑戰者與評估者)選擇模型及定義提示詞。
 - 多輪對話模擬: 模擬防守者與挑戰者之間的多輪對話，並展示實時對話過程。
 - 表現角色評估: 通過評估者對防守者和挑戰者的表現進行詳細評估和建議。
-- 可視化界面: Streamlit 的用戶界面，便於操作與即時查看對話結果。
+- 可視化界面: Streamlit 的視覺化界面，便於操作與即時查看對話結果。
 
 # 前置步驟
 ## 複製專案
