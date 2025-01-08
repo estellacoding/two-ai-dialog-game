@@ -3,6 +3,13 @@ import streamlit as st
 from dialog_simulation import Agent, simulate_dialogue
 from llm_checker import get_api_key
 
+
+# 設置網頁標題
+st.set_page_config(
+    page_title="AI 角色對話遊戲",
+    page_icon="🗨️",
+)
+
 # 設置應用的標題
 st.title("AI 角色對話遊戲")
 
