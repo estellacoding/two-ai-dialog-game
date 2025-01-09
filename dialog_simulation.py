@@ -165,14 +165,18 @@ def simulate_dialogue(agent_defender, agent_challenger, agent_evaluater, rounds,
         defender_reply = run_chat_completion(
             messages_defender, model=agent_defender.model, api_key=api_keys["defender"]
         )
+        # 防守者回覆記錄至防守者的assistant
         messages_defender.append({"role": "assistant", "content": defender_reply})
+        # 防守者回覆記錄至挑戰者的user
         messages_challenger.append({"role": "user", "content": defender_reply})
 
         # 挑戰者回覆
         challenger_reply = run_chat_completion(
             messages_challenger, model=agent_challenger.model, api_key=api_keys["challenger"]
         )
+        # 挑戰者回覆記錄至挑戰者的assistant
         messages_challenger.append({"role": "assistant", "content": challenger_reply})
+        # 挑戰者回覆記錄至防守者的user
         messages_defender.append({"role": "user", "content": challenger_reply})
 
         # 記錄每輪對話

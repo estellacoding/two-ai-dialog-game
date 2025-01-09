@@ -38,11 +38,11 @@ GROK_API_API = <your Grok API key>
 ## 專案結構
 ```
 two-ai-dialog-game/
-├── app.py                     # 主應用程式
+├── app.py                     # Streamlit 主應用程式
 ├── dialog_simulation.py       # AI 對話核心邏輯
-├── llm_checker.py             # 模型金鑰檢查
+├── llm_checker.py             # 模型金鑰檢查邏輯
 ├── requirements.txt           # 需安裝的 Python 套件
-└── README.md                  # 專案說明
+├── README.md                  # 專案說明
 └── .streamlit/secrets.toml    # 設定環境變數
 ```
 
