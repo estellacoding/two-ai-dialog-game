@@ -1,5 +1,5 @@
 # AI 角色對話攻防策略遊戲
-受到 ihower 在 WebConf Taiwan 2024 的 [演講內容](https://ihower.tw/blog/archives/12444) 啟發，做了這個簡單的 AI 角色對話遊戲。
+受到 ihower 在 WebConf Taiwan 2024 的 [演講內容](https://ihower.tw/blog/archives/12444) 啟發，做了這個簡單的 AI 角色對話攻防策略遊戲。
 
 # 主要功能
 - 支持多模型: OpenAI GPT、Anthropic Claude、Google Gemini、Mistral 及 xAI Grok。
@@ -56,4 +56,7 @@ streamlit run app.py
 開啟瀏覽器，進入 localhost:8501，即可使用專案介面。
 
 # 立即體驗
-進入 [AI 角色對話遊戲](https://two-ai-dialog-game.streamlit.app/) 吧!
+進入 [AI 角色對話攻防策略遊戲](https://two-ai-dialog-game.streamlit.app/) 吧!
+
+# 文章連結
+- [誰會贏? AI 角色對話的攻防策略](https://estellacoding.github.io/blog/two-ai-dialog-game/)
