@@ -32,7 +32,7 @@ def run_gpt_chat_completion(messages, temperature=0.7, model="gpt-4o-mini", api_
     except Exception as e:
         return f"錯誤: {e}"
 
-#  Mistral 模型進行對話生成    
+#  Mistral 模型進行對話生成 
 def run_mistral_chat_complete(messages, temperature=0.7, model="mistral-large-latest", api_key=None):
     if not api_key:
         return "錯誤: 未提供 Mistral API Key"
