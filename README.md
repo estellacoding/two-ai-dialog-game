@@ -1,4 +1,4 @@
-# AI 角色對話遊戲
+# AI 角色對話攻防策略遊戲
 受到 ihower 在 WebConf Taiwan 2024 的 [演講內容](https://ihower.tw/blog/archives/12444) 啟發，做了這個簡單的 AI 角色對話遊戲。
 
 # 主要功能
