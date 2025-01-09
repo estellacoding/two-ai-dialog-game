@@ -55,8 +55,6 @@ streamlit run app.py
 ## 開啟瀏覽器
 開啟瀏覽器，進入 localhost:8501，即可使用專案介面。
 
-# 立即體驗
-進入 [AI 角色對話攻防策略遊戲](https://two-ai-dialog-game.streamlit.app/) 吧!
-
-# 文章連結
+# 相關連結
+- 進入 [AI 角色對話攻防策略遊戲](https://two-ai-dialog-game.streamlit.app/) 體驗吧!
 - [誰會贏? AI 角色對話的攻防策略](https://estellacoding.github.io/blog/two-ai-dialog-game/)
