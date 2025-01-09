@@ -1,5 +1,5 @@
 # AI 角色對話攻防策略遊戲
-受到 ihower 在 WebConf Taiwan 2024 的 [演講內容](https://ihower.tw/blog/archives/12444) 啟發，做了這個簡單的 AI 角色對話攻防策略遊戲。
+受到 ihower 在 WebConf Taiwan 2024 的 [演講內容](https://ihower.tw/blog/archives/12444) 啟發，做了這個簡單的 AI 角色對話攻防策略遊戲。我設定不同的 AI 模型扮演防守者(Defender)、挑戰者 (Challenger)和評估者 (Evaluater)，並讓防守者和挑戰者進行多輪對話。對話結束後，評估者會給出對防守者與挑戰者的表現評價與建議。
 
 # 主要功能
 - 支持多模型: OpenAI GPT、Anthropic Claude、Google Gemini、Mistral 及 xAI Grok。
